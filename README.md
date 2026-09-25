@@ -4,14 +4,14 @@ What is AI?
 
 ## HISTORY OF AI
 -> can machines think? question asked my Alan Turing in 1950. so he made The Turing Test to check it.
-Turing Test -> judge ask the question from machine and person. if he identify that answer is given by machine or not, machines fails but if judge not able to answer machine Pass.
--> Artificial Inteligence word given by John McCarthy in 1955
+Turing Test -> judge ask the question from machine and person. if he identify that answer is given by machine or not, machines fails but if judge not able to answer machine Pass.  
+-> Artificial Inteligence word given by John McCarthy in 1955  
 -> 1986 Synthatic Inteligence word came.
 SI -> Machine beyond human inteligence
 AI -> can machine replace the human or can achive the human inteligence
 -> In 1997 Deep blue Application defeated Garry Kas Paruv (Famous chess player) in chess. because of this event scientists think Have machine become smarter than human.
 
-## Rule Base AI(1950 - 1980) -> inteligence is a simply collection of rules(very much if else conditions)
+->Rule Base AI(1950 - 1980) -> inteligence is a simply collection of rules(very much if else conditions)
 Ex. Spam Detector -> if(spam || $$$ || lottery), flu detector -> if(cough || body ache || cold)
 expert system were built by human using lot of rules
 
