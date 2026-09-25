@@ -1,1 +1,1 @@
-# Namast
+# Namaste AI
