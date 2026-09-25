@@ -1,2 +1,1 @@
-# Namaste-AI
-##Chintu
+# Namast
