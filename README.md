@@ -29,5 +29,19 @@ image Recognition, speech Recognition, Translation, GPU revolution + internet + 
 # Generative AI  
 ## The CHAT GTP Moment(Nov 2022)   
 Now AI Can do anything  
+LLM Models Vs Google Search Engine -> AI Generates the answer but Google search engine search the web pages most related to you search according to their algorithm  
+LLM Models were trained on large number of data.  
+Training Vs Inference -> In Training Models were feeded large number of data to recognize pattern but in Inference Models return some answer to users queary Inference is stage where Training used to return answer.  
+Base Model Vs Ai Assistence -> in base model ai just generate related text but AI assistence can exiss the tools and can answer the diffrent type of quesry by helping of outer tools or tech.  
+# AI Answer the Garbage very confidently(Language Beautifulness is not the mark of factual accuracy) This Property of AI is called as Hallucination.
+Reason of hallucination can be -> Insufficient Info 
+                                  Ambiguos Info
+                                  Outdated Knowledge  
+                                  False assumption  
+                                  Model are optimised to answer  
+-> AI assistence get super power by using diffrent tools like web search,diffrent type of calculator, weather application, clock, Email, Calander, Code exicution, Location, Files, DataBase.  
+-> Web Search + LLMs => AI Assistance (Chat GPT, Gemini, Cloude etc.), They can Retrive data + Generate Answers.  
+                                  
+
 
  
