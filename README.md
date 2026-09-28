@@ -40,7 +40,19 @@ Reason of hallucination can be -> Insufficient Info
                                   False assumption  
                                   Model are optimised to answer  
 -> AI assistence get super power by using diffrent tools like web search,diffrent type of calculator, weather application, clock, Email, Calander, Code exicution, Location, Files, DataBase.  
--> Web Search + LLMs => AI Assistance (Chat GPT, Gemini, Cloude etc.), They can Retrive data + Generate Answers.  
+-> Web Search + LLMs => AI Assistance (Chat GPT, Gemini, Cloude etc.), They can Retrive data + Generate Answers.
+
+# How AI understand  Human Prompt?
+1. Tokenizer -> it change the sentence into multiple tokens assign with each words and those tokens are assign to specific number.specific words are assiged with specific token numbers. example (my name is chitransh) -> [21,345,321,768,32];
+   -> llms does not assign specific char to specific token number because it increased the expensiveness.
+   -> llms does not assign specific word to specific tokens because there can be many many words in this world.
+There are different tokenizer algorithms like byte pain encoding, unigram encoding etc.
+->if two sentence have same meaning does not mean they will have same number of tokens. generally llms are very good to tokenize english thats why same meaning sentence in english take less tokens campair with hindi sentence.
+-> emojis, special symbols, code, sign etc. are represented by diff token ids.
+-> system instruction are also passed by ai assistence to llms with every prompt. system instructions are also assign to specific tokens.
+# context window -> there is not only the message is passed to llms specific size of context also passed. context has limited size called as context window.   
+   
+    
                                   
 
 
