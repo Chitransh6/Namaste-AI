@@ -50,7 +50,19 @@ There are different tokenizer algorithms like byte pain encoding, unigram encodi
 ->if two sentence have same meaning does not mean they will have same number of tokens. generally llms are very good to tokenize english thats why same meaning sentence in english take less tokens campair with hindi sentence.
 -> emojis, special symbols, code, sign etc. are represented by diff token ids.
 -> system instruction are also passed by ai assistence to llms with every prompt. system instructions are also assign to specific tokens.
-# context window -> there is not only the message is passed to llms specific size of context also passed. context has limited size called as context window.   
+## context window -> there is not only the message is passed to llms specific size of context also passed. context has limited size called as context window.  
+# How Machine Represents Meaning  
+Vectorization -> converting any piece info into array of numbers is called as vectorization.  
+embeding -> is the vector of numbers has some kind of meaning.
+           example-> king = [2.3,6,8,0.2]
+                             loyal,brave,healty,longer  
+           these number is called as dimensions  
+-> the many numbers of dimensions in embeding how much the pattens are recognizable by machine.  
+the high numbers of dimensions in embedding does not mean highly good model, these embedding of different words that present in this world are feed to the machines the patterns are automaticaly recognized by the machine. same like how a child recognized pattern between different words.    
+->Semantic simillarity -> it measures how close two piece of sentence is in meaning, beacause it is very difficult to measure simillarity between two sentence by using only keywords matching. example = 1.how to center a div 2.how to put an element at middle respect to its parent. both has same meaning but machine can only find similarity between them by using embedding because there embedding will form same pattern.
+           
+           
+
    
     
                                   
