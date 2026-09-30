@@ -59,7 +59,14 @@ embeding -> is the vector of numbers has some kind of meaning.
            these number is called as dimensions  
 -> the many numbers of dimensions in embeding how much the pattens are recognizable by machine.  
 the high numbers of dimensions in embedding does not mean highly good model, these embedding of different words that present in this world are feed to the machines the patterns are automaticaly recognized by the machine. same like how a child recognized pattern between different words.    
-->Semantic simillarity -> it measures how close two piece of sentence is in meaning, beacause it is very difficult to measure simillarity between two sentence by using only keywords matching. example = 1.how to center a div 2.how to put an element at middle respect to its parent. both has same meaning but machine can only find similarity between them by using embedding because there embedding will form same pattern.
+->Semantic simillarity -> it measures how close two piece of sentence is in meaning, beacause it is very difficult to measure simillarity between two sentence by using only keywords matching. example = 1.how to center a div 2.how to put an element at middle respect to its parent. both has same meaning but machine can only find similarity between them by using embedding because there embedding will form same pattern.    
+-> Cosine Similarity -> if more lesser the angle between two vectors more simillar they are. beacause cos(0) = 1, cos(90) = 0, cos(180) = -1;    
+   value vary between -1 to 1. if cosine value more closer then 1 more similar the vectors are. similarity does not depends on the length of the vectors.    
+   that mean two sentences can have very different words but same meaning.    
+   Cosine Similarity = A.B/|A||B|    
+   -> Embedding capture relationship they do not independently verify facts,intent,quality,safety.  
+   
+
            
            
 
