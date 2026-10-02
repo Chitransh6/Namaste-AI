@@ -65,6 +65,16 @@ the high numbers of dimensions in embedding does not mean highly good model, the
    that mean two sentences can have very different words but same meaning.    
    Cosine Similarity = A.B/|A||B|    
    -> Embedding capture relationship they do not independently verify facts,intent,quality,safety.  
+## Text Embeding Vs Tokens Embeding -> 
+ -> text embeding refers to embeding of a sentence used to find sementic similarity between two sentences.  
+ -> Tokens embeding refers to embeding of different words in sentence that helps to identify the order of words and identify the words.  
+
+-> same word can have different meaning in different sentences like i am eating apple, i like apple devices have different meaning. so embeddings depends on surrounding words.  
+ * How modern llm Models represents Context.
+   -> initial token embeding will remains same for both sentence but furder in more levels the embeding has going to change base on surrounding. Context modifies the representation
+-> Bias in embeddings -> model can be bias on specific society,color,steriotype,inequality etc. beacuse models are train on the data that can be bias.
+    
+   
    
 
            
